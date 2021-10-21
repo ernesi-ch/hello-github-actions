@@ -10,4 +10,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mr Bombastic"
+      - uses: ./action-b
 

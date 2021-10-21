@@ -1,0 +1,11 @@
+name: "Test Output"
+description: "Test Output"
+author: "octocat@github.com"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"

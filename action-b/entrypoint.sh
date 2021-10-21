@@ -5,4 +5,4 @@ echo pwd
 ls -lah
 while IFS=, read -r a b; do
     sh -c "echo Test $a was successfull."
-done < tests/result.txt
+done < tests/results.txt
